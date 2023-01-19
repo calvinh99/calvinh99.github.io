@@ -27,6 +27,15 @@ url: "https://calvinh99.github.io" # the base hostname & protocol for your site,
 twitter_username: scholarc1314
 github_username:  calvinh99
 
+header_pages:
+  - about.md
+  - projects.md
+  - resume-cv.md
+
+collections:
+  projects:
+    output: true
+
 # Build settings
 theme: minima
 plugins:
