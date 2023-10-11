@@ -1,3 +1,6 @@
 ---
-layout: blog
+layout: default
 ---
+
+{% include about.html %}
+{% include projects.html %}
