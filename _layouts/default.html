@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        body { font-family: 'Comic Sans MS'; }
-        .mint-green { background-color: mintgreen; }
-    </style>
-    <title>Your Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <div class="mint-green">
-        {% include about.html %}
-    </div>
-    <div class="projects">
-        {% include projects.html %}
+    {% include header.html %}
+    <div class="page-content">
+        {{ content }}
     </div>
 </body>
 </html>
