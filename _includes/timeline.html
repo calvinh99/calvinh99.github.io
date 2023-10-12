@@ -1,0 +1,17 @@
+<div class="container">
+  {% for entry in site.data.timeline %}
+    <div class="entry row">
+      <div class="timespan">{{ entry.timespan }}</div>
+      <div class="logo">
+        <div class="dot"></div>
+        <img src="{{ entry.logo }}">
+      </div>
+      <div class="content">
+        <div id="title">{{ entry.title }}</div>
+        <div>
+          {{ entry.content | markdownify | remove: '<p>' | remove: '</p>' }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

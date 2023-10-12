@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  color: #999;
+  font-size: 18px;
+  padding: 0;
+  margin: 5px 0 10px 0;
+}
+
+hr {
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  padding: 0;
+  margin: 20px 0px 20px 0px;
+  border: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 970px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+// -------------------------------------------------------------------------------
+// ABOUT
+// -------------------------------------------------------------------------------
+#dabout {
+  margin-top: 20px;
+}
+
+#dselfie {
+  grid-column: span 6;
+  text-align: right;
+}
+
+#dselfie img {
+  object-fit: cover;
+  object-position: center;
+  width: 240px;
+  height: 240px;
+}
+
+#ddesc {
+  padding-top: 40px;
+  padding-left: 20px;
+  grid-column: span 6;
+}
+
+.iico {
+  width: 40px;
+  height: 40px;
+}
+
+// -------------------------------------------------------------------------------
+// TIMELINE
+// -------------------------------------------------------------------------------
+
+// dates
+.timespan {
+  grid-column: span 1;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 10px;
+  color: #bbb;
+}
+
+.entry {
+  margin-bottom: 30px;
+}
+
+// contains dot, line, image
+.logo {
+  grid-column: span 1;
+  vertical-align: top;
+  border-left: 2px solid #cfcfcf;
+  position: relative;
+}
+
+// dot on line
+.dot {
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 7px;
+  background-color: #cfcfcf;
+  border: 2px solid white;
+}
+
+// actual logo img
+.logo img {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 80px;
+  margin-left: 10px;
+}
+
+// content text
+.content {
+  grid-column: span 10;
+  vertical-align: top;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 20px;
+}
