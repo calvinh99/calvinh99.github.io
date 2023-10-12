@@ -1,0 +1,19 @@
+- timespan: "2023-Now"
+  logo: "assets/imgs/linkdea-logo.png"
+  title: ML Engineer
+  content: "Machine Learning Engineer at [Linkdea](https://linkdea.com/). Working on chapter segmentation. Fine-tuned llama2. Built full data pipeline. Optimized FT-llama2 for inference with TensorRT. Deployed to API endpoint. Handle asynchronous requests."
+
+- timespan: "2023-2023"
+  logo: "assets/imgs/sit-logo.png"
+  title: Researcher - SIT
+  content: "AI Researcher at SIT with [AIRS fellowship](https://www.stevens.edu/stevens-institute-for-artificial-intelligence/ai-research-summer-fellowship). Developed new image generation algorithm using energy-based models and stable diffusion."
+
+- timespan: "2022-2023"
+  logo: "assets/imgs/mangastyle-logo.png"
+  title: Mangastyle (Project)
+  content: "[Mangastyle](https://mangastyle.lol/) is an art platform intended to provide inspiration to artists who love the \"manga\" art style. Images are from X/Twitter, linked back to artist's account. No longer gathers new images due to Twitter API changes. All code is on the [GitHub](https://github.com/calvinh99/mangastyle)."
+
+- timespan: "2020-2023"
+  logo: "assets/imgs/sit-logo.png"
+  title: Undergrad - SIT
+  content: "BSc in computer science at [SIT](https://www.stevens.edu/)."
