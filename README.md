@@ -30,12 +30,12 @@ This repository contains the source code for my personal website: my selfie and 
 
 1. Clone the repository:
    ```bash
-   git clone [repository-link]
+   git clone https://github.com/calvinh99/calvinh99.github.io.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd [directory-name]
+   cd calvinh99.github.io
    ```
 
 3. Install dependencies:
