@@ -1,16 +1,20 @@
 - timespan: "2023-Now"
   logo: "assets/imgs/linkdea-logo.png"
-  title: ML Engineer
+  title: Linkdea
   content: |
     Machine Learning Engineer at [Linkdea](https://linkdea.com/). Working on chapter segmentation. Fine-tuned llama2. Built full data pipeline. Optimized FT-llama2 for inference with TensorRT. Deployed to API endpoint. Handle asynchronous requests.
-    <br><br><br>
+
+- timespan: "2023-2023"
+  logo: "assets/imgs/studycafes-logo.jpg"
+  title: StudyCafes (Project)
+  content: |
+    [StudyCafes](http://studycafes.love/) is a website for finding good cafes to study at based on a curated set of metrics.
 
 - timespan: "2023-2023"
   logo: "assets/imgs/sit-logo2.png"
-  title: Researcher - SIT
+  title: Stevens Institute for Artificial Intelligence
   content: |
     AI Researcher at SIT with [AIRS fellowship](https://www.stevens.edu/stevens-institute-for-artificial-intelligence/ai-research-summer-fellowship). Developed new image generation algorithm using energy-based models and stable diffusion.
-    <br><br><br><br>
 
 - timespan: "2022-2023"
   logo: "assets/imgs/mangastyle-logo.png"
@@ -21,11 +25,27 @@
     ![Screenshot of Mangastyle](assets/imgs/mangastyle-screenshot1.png)
     <br>
     Mangastyle display of trending images
-    <br><br><br>
 
 - timespan: "2020-2023"
   logo: "assets/imgs/sit-logo2.png"
-  title: Undergrad - SIT
+  title: Stevens Institute of Technology
   content: |
     BSc in computer science at [SIT](https://www.stevens.edu/).
-    <br><br><br><br><br>
+
+- timespan: "2018-2018"
+  logo: "assets/imgs/kikuu-logo.jpg"
+  title: KIKUU
+  content: |
+    Worked on shipping address frontend and backend for the android app.
+
+- timespan: "2016-2018"
+  logo: "assets/imgs/cc-logo.jpg"
+  title: Citrus Circuits FRC Robotics
+  content: |
+    Lead developer of the scouting application.
+
+- timespan: "2017-2020"
+  logo: "assets/imgs/dshs-logo.jpg"
+  title: Davis Senior High School
+  content: |
+    Student at DSHS.
