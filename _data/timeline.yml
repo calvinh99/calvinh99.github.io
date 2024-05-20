@@ -1,4 +1,11 @@
-- timespan: "2023-Now"
+- timespan: "2024-Now"
+  logo: "assets/imgs/amazon-logo.jpg"
+  title: Amazon Rufus
+  content: |
+    Data Scientist at Amazon Rufus. Working on LLM evaluation.
+
+
+- timespan: "2023-2024"
   logo: "assets/imgs/linkdea-logo.png"
   title: Linkdea
   content: |
