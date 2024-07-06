@@ -4,18 +4,11 @@
   content: |
     Data Scientist at Amazon Rufus. Working on LLM evaluation.
 
-
 - timespan: "2023-2024"
   logo: "assets/imgs/linkdea-logo.png"
   title: Linkdea
   content: |
     Machine Learning Engineer at [Linkdea](https://linkdea.com/). Working on chapter segmentation. Fine-tuned llama2. Built full data pipeline. Optimized FT-llama2 for inference with TensorRT. Deployed to API endpoint. Handle asynchronous requests.
-
-- timespan: "2023-2023"
-  logo: "assets/imgs/studycafes-logo.jpg"
-  title: StudyCafes (Project)
-  content: |
-    [StudyCafes](http://studycafes.love/) is a website for finding good cafes to study at based on a curated set of metrics.
 
 - timespan: "2023-2023"
   logo: "assets/imgs/sit-logo2.png"
